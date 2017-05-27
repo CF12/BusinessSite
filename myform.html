@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="formStyle.css">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Earbud Forms</title>
+	</head>
+	<body>
+		<form>
+			<div class="aboutMePage"><a href="index.html"><button5> About Me</button></a></div>
+			<h1>Wireless Headphones & Earbuds Order Form</h1>
+			<!--<div class="slideshow-container">
+
+			<div class="mySlides fade">
+				<img src="Images/beats.jpg" height="250" width="180">
+		</div>
+
+		<div class="mySlides fade">
+			<img src="Images/skullcandy.jpg" height="250" width="250">
+		</div>
+
+		<div class="mySlides fade">
+			<img src="Images/bose.jpg" height="250px" width="250px">
+		</div>
+		<div class="mySlides fade">
+			<img src="Images/sonybass.jpg" height="250px" width="180px">
+		</div>
+		<div class="mySlides fade">
+			<img src="Images/applebuds.jpg" height="250px" width="250px">
+		</div>
+		</div>
+
+		<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+				}
+				slideIndex++;
+				if (slideIndex> slides.length) {slideIndex = 1}    
+				slides[slideIndex-1].style.display = "block";  
+				setTimeout(showSlides, 2000); // Change image every 2 seconds
+			}
+		</script>-->	
+			
+			
+			<h2>Customize Your Look</h2>
+				
+				<h4>Color</h4>
+				<table>
+					<tr>
+						<th>Color</th>
+						<th>Cushion Size</th>
+						<th>Cushion Material</th>
+						<th>Connection Type</th>
+					</tr>
+					<tr>
+						<td><input type="radio" name="color" value="red">Red</td>
+						<td><select>
+								<option value="small">Small</option>
+								<option value="medium">Medium</option>
+								<option value="large">large</option></td>
+						<td><select>
+								<option value="leather">Leather</option>
+								<option value="fleather">Faux Leather</option>
+								<option value="sfabric">Synthetic Fabric</option>
+								<option value="foam">Foam</option></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="color" value="gold">Gold</td>
+						<td></td>
+						<td></td>
+						<td><input type="radio" name="connection" value="wired">Wired</td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="color" value="green">Green</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="color" value="blue">Blue</td>
+						<td></td>
+						<td></td>
+						<td><input type="radio" name="connection" value="wireless">Wireless</td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="color" value="black">Black</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				
+				
+				</table>
+				<br>
+				<hr size="8" noshade color="orange">
+			<br>
+			<hr size="8" noshade color="orange">
+			<br>
+				<table>
+				<tr>
+					<td>First Name</td>
+					<td><input type="text" name="Fname" size="30"></td>
+				</tr>
+				<tr>
+					<td>Middle Initial</td>
+					<td><input type="text" name="Mi" size="30"></td>
+				</tr>
+				<tr>
+					<td>Last Name</td>
+					<td><input type="text" name="Lname" size="30"></td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td><input type="text" name="address" size="30"></td>
+				</tr>
+				
+				<tr>
+					<td>City</td>
+					<td><input type="text" name="city" size="30"></td>
+				</tr>
+				<tr>
+				<td>State</td>
+				<td><input type="text" name="state" size="30"></td>
+				</tr>
+				<tr>
+					<td>Zip</td>
+					<td><input type="text" name="zip" size="30"></td>
+				</tr>
+				<tr>
+					<td>Card Type</td>
+					<td>
+						<select>
+							<option value="debit">Credit</option>
+							<option value="credit">Debit</option>
+							<option value="gift">Gift</option>
+					</td>
+				</tr>
+				<tr>
+					<td>Cerdit Card Number</td>
+					<td><input type="text" name="ccnumber" size="7"><input type="text" name="ccnumber" size="7"><input type="text" name="ccnumber" size="7"></td>
+				</tr>
+				<tr>
+					<td>CVV2</td>
+					<td><input type="text" name="ccnumber" size="7"></td>
+				</tr>
+			</table>
+				<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
